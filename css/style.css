@@ -1,0 +1,375 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin:0 auto;
+}
+
+html,body{
+    height:100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height:200px;
+    padding:20px 0;
+}
+
+.logo{
+    width:50%;
+}
+
+.logo img{
+    width: 10%;
+}
+
+.menu{
+    padding-top:30px;
+    width:50%;
+    text-align: right;
+}
+
+.menu a{
+    color:black;
+    text-decoration: none;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom:-500px;
+    right:-550px;
+    width: 1100px;
+    height: 1020px;
+    border-radius:50%;
+    background-color: #017143;
+}
+
+.img1{
+    position: relative;
+    margin-top: -50px;
+    max-width: 350px;
+}
+
+.social-media{
+   position: relative;
+   display: inline-block;
+   bottom: 22%;
+   left: 14%;
+   
+}
+
+.social-media img {
+    height: 2%;
+}
+
+.social-media img{
+    display: block;
+    background-size: cover;
+    width:20px;
+    margin:20px 0;
+}
+
+.texto-sobre{
+    margin-top:60px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+.texto-sobre p{
+    margin:20px 0;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 550px;
+}
+
+.texto-sobre button{
+    border:0;
+    background-color: #017143;
+    color:white;
+    border-radius:10px;
+    width:100px;
+    height:30px;
+    cursor: pointer;
+}
+
+.footer{
+    position: relative;
+    margin-top: 6%;
+    margin-left: 50%;
+}
+
+.footer img{
+    width: 8%;
+    padding: 0 1%;
+}
+
+@media screen and (min-width: 1850px) {
+
+    .logo{
+        width:50%;
+        margin-left: -10px;
+    }
+    
+    .logo img{
+        width: 15%;
+    }
+
+    .menu{
+        margin-top: -90px;
+        margin-left: 100vh;
+        font-weight: 600;
+        font-size: 1em;
+    }
+
+    .extras{
+        position: absolute;
+        bottom:-700px;
+        right:-650px;
+        width: 1350px;
+        height: 1450px;
+        border-radius:50%;
+        background-color: #017143;
+    }
+
+    .img1{
+        position: relative;
+        margin-top: 30px;
+        max-width: 550px;
+    }
+
+    .social-media{
+    position: relative;
+    display: inline-block;
+    bottom: 18%;
+    left: 18%;
+    }
+
+    .social-media img{
+        display: block;
+        background-size: cover;
+        margin-top: 40px;
+    }
+
+    .texto-sobre{
+        margin-top:100px;
+        margin-left: -100px;
+    }
+    
+    .texto-sobre h1{
+        font-size: 50px;
+    }
+    
+    .texto-sobre p{
+        margin:20px 0;
+        color:black;
+        font-size: 14px;
+        font-weight: bold;
+        max-width: 700px;
+    }
+    
+    .texto-sobre button{
+        border:0;
+        background-color: #017143;
+        color:white;
+        border-radius:10px;
+        width:100px;
+        height:30px;
+        cursor: pointer;
+    }
+    
+    .footer{
+        position: relative;
+        margin-top: 10%;
+        margin-left: 50%;
+        right: 4%;
+    }
+    
+    .footer img{
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 1450px) and (min-width: 1100px) {
+
+    .logo{
+        width:50%;
+    }
+    
+    .logo img{
+        width: 10%;
+        margin-left: 15%;
+    }
+    
+    .menu{
+        padding-top:30px;
+        width:40%;
+        text-align: right;
+    }
+    
+    .menu a{
+        color:black;
+        text-decoration: none;
+        font-weight: 400;
+        margin-right: 15px;
+    }
+
+    .texto-sobre{
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    
+    .texto-sobre h1{
+        font-size: 50px;
+    }
+    
+    .texto-sobre p{
+        margin:20px 0;
+        color:black;
+        font-size: 12px;
+        font-weight: bold;
+        max-width: 500px;
+    }
+
+    .extras{
+        position: absolute;
+        bottom:-600px;
+        right:-550px;
+        width: 1000px;
+        height: 1200px;
+        border-radius: 50%;
+        background-color: #017143;
+    }
+
+    .img1{
+        position: relative;
+        margin-top: 50px;
+        max-width: 300px;
+    }
+
+    .social-media{
+        position: relative;
+        display: inline-block;
+        bottom: 18%;
+        left: 10%;
+    }
+
+    .social-media img{
+        display: block;
+        background-size: cover;
+        width:20px;
+        margin:20px 0;
+    }
+
+    .footer{
+        position: relative;
+        margin-top: 9%;
+        margin-left: 45%;
+        right: 2%;
+    }
+    
+    .footer img{
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 1099px) and (min-width: 681px) {
+
+    .logo{
+        width:50%;
+    }
+    
+    .logo img{
+        width: 10%;
+        margin-left: 20%;
+    }
+    
+    .menu{
+        padding-top: 30px;
+        width: 40%;
+        text-align: right;
+    }
+    
+    .menu a{
+        color:black;
+        text-decoration: none;
+        font-weight: 400;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+
+    .texto-sobre{
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    
+    .texto-sobre h1{
+        font-size: 30px;
+    }
+    
+    .texto-sobre p{
+        margin:20px 0;
+        color:black;
+        font-size: 10px;
+        font-weight: bold;
+        max-width: 350px;
+    }
+
+    .extras{
+        position: absolute;
+        bottom:-600px;
+        right:-550px;
+        width: 1000px;
+        height: 1200px;
+        border-radius: 45%;
+        background-color: #017143;
+    }
+
+    .img1{
+        position: relative;
+        margin-top: 35px;
+        max-width: 300px;
+    }
+
+    .social-media{
+        position: relative;
+        display: inline-block;
+        bottom: 18%;
+        left: 10%;
+    }
+
+    .social-media img{
+        display: block;
+        background-size: cover;
+        width:20px;
+        margin:20px 0;
+    }
+
+    .footer{
+        position: relative;
+        margin-top: 14%;
+        margin-left: 30%;
+        right: 3%;
+    }
+    
+    .footer img{
+        width: 11%;
+    }
+}
